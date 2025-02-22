@@ -1,4 +1,6 @@
-package structural.adapter_01.audio;
+package structural.adapter_01.example_1.audio;
+
+import structural.adapter_01.example_1.MediaPlayer.MediaPlayer;
 
 public class AudioPlayer implements MediaPlayer {
 

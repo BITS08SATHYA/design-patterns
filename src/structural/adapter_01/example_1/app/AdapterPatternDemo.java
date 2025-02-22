@@ -1,12 +1,12 @@
-package structural.adapter_01.app;
+package structural.adapter_01.example_1.app;
 
-import structural.adapter_01.adapter.AudioPlayerWithAdapter;
-import structural.adapter_01.audio.MediaPlayer;
+import structural.adapter_01.example_1.adapter.AudioMediaAdapter;
+import structural.adapter_01.example_1.MediaPlayer.MediaPlayer;
 
 public class AdapterPatternDemo {
     public static void main(String[] args) {
 
-        MediaPlayer player = new AudioPlayerWithAdapter();
+        MediaPlayer player = new AudioMediaAdapter();
 
         player.play("mp3", "song.mp3"); // audio file format
         player.play("mp4", "video.mp4"); // video file format-1

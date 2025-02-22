@@ -1,15 +1,18 @@
-package structural.adapter_01.adapter;
+package structural.adapter_01.example_1.adapter;
 
-import structural.adapter_01.audio.MediaPlayer;
-import structural.adapter_01.video.AdvancedMediaPlayer;
-import structural.adapter_01.video.Mp4Player;
-import structural.adapter_01.video.VlcPlayer;
+import structural.adapter_01.example_1.MediaPlayer.MediaPlayer;
+import structural.adapter_01.example_1.MediaPlayer.AdvancedMediaPlayer;
+import structural.adapter_01.example_1.video.Mp4Player;
+import structural.adapter_01.example_1.video.VlcPlayer;
 
-public class MediaAdapter implements MediaPlayer {
+/**
+ * Adapter is designed for running only video files
+ * */
+public class VideoMediaAdapter implements MediaPlayer {
 
     AdvancedMediaPlayer advancedMediaPlayer;
 
-    public MediaAdapter(String audioType) {
+    public VideoMediaAdapter(String audioType) {
         if (audioType.equalsIgnoreCase("mp4")){
             advancedMediaPlayer = new Mp4Player();
         }else if(audioType.equalsIgnoreCase("vlc")){

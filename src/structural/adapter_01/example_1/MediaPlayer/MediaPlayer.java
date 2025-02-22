@@ -1,4 +1,4 @@
-package structural.adapter_01.audio;
+package structural.adapter_01.example_1.MediaPlayer;
 
 /**
  * Adapter

@@ -1,19 +1,18 @@
-package structural.adapter_01.adapter;
+package structural.adapter_01.example_1.adapter;
 
-import structural.adapter_01.audio.AudioPlayer;
-import structural.adapter_01.audio.MediaPlayer;
+import structural.adapter_01.example_1.MediaPlayer.MediaPlayer;
 
-public class AudioPlayerWithAdapter implements MediaPlayer {
+public class AudioMediaAdapter implements MediaPlayer {
 
-    MediaAdapter mediaAdapter;
+    VideoMediaAdapter videoMediaAdapter;
 
     @Override
     public void play(String audioType, String fileName) {
         if(audioType.equalsIgnoreCase("mp3")){
             System.out.println("Playing MP3 file: " + fileName);
         }else if(audioType.equalsIgnoreCase("mp4") || audioType.equalsIgnoreCase("vlc")){
-            mediaAdapter = new MediaAdapter(audioType);
-            mediaAdapter.play(audioType, fileName);
+            videoMediaAdapter = new VideoMediaAdapter(audioType);
+            videoMediaAdapter.play(audioType, fileName);
         }else{
             System.out.println("Invalid Media Format: " + audioType);
         }

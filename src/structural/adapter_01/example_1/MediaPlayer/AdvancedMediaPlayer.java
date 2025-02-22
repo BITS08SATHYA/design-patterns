@@ -1,4 +1,4 @@
-package structural.adapter_01.video;
+package structural.adapter_01.example_1.MediaPlayer;
 
 public interface AdvancedMediaPlayer {
     void playMp4(String fileName);
