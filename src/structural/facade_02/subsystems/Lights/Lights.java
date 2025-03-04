@@ -1,4 +1,4 @@
-package structural.facade_03.subsystems.Lights;
+package structural.facade_02.subsystems.Lights;
 
 public class Lights {
 

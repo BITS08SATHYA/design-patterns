@@ -1,4 +1,4 @@
-package structural.facade_03.subsystems.DVDPlayer;
+package structural.facade_02.subsystems.DVDPlayer;
 
 public class DVDPlayer {
 

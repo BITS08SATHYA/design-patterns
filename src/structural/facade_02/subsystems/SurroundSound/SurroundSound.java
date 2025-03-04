@@ -1,4 +1,4 @@
-package structural.facade_03.subsystems.SurroundSound;
+package structural.facade_02.subsystems.SurroundSound;
 
 public class SurroundSound {
 

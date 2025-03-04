@@ -1,6 +1,6 @@
-package structural.facade_03.app;
+package structural.facade_02.app;
 
-import structural.facade_03.Facade.HomeTheaterFacade;
+import structural.facade_02.Facade.HomeTheaterFacade;
 
 public class HomeFaceDemo {
     public static void main(String[] args) {

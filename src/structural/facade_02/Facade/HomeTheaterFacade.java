@@ -1,11 +1,9 @@
-package structural.facade_03.Facade;
+package structural.facade_02.Facade;
 
-import structural.facade_03.subsystems.DVDPlayer.DVDPlayer;
-import structural.facade_03.subsystems.Lights.Lights;
-import structural.facade_03.subsystems.Projector.Projector;
-import structural.facade_03.subsystems.SurroundSound.SurroundSound;
-
-import java.util.List;
+import structural.facade_02.subsystems.DVDPlayer.DVDPlayer;
+import structural.facade_02.subsystems.Lights.Lights;
+import structural.facade_02.subsystems.Projector.Projector;
+import structural.facade_02.subsystems.SurroundSound.SurroundSound;
 
 public class HomeTheaterFacade {
 
